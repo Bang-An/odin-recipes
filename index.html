@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        <link rel="stylesheet" href="./style.css"/>
         <meta charset="UTF-8">
-        <title></title>
+        <title>landing page</title>
 
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
+        <h1 class="title">Odin Recipes</h1>
+        <ul class="dishes">
             <li>
-                <a href="./recipes/swedish-meatballs.html" rel="noopener noreferrer">Swedish Meatballs</a>
+                <div class="dish-meatball">
+                    <a id="swedishMeatballs" href="./recipes/swedish-meatballs.html" rel="noopener noreferrer">Swedish Meatballs</a>
+                    <img src="./images/source-piggy.png" alt="pig icon because meatball is made of pork">
+                </div>
             </li>
+            <li >
+                <div class="dish-potato">
+                    <a id="potatoLatkes" href="./recipes/mom's-potato-latkes.html" rel="noopener noreferrer">Mom's Potato Latkes</a>
+                    <img src="./images/source-potato.png" alt="potato icon">
+                </div>
+            </li>     
+
             <li>
-                <a href="./recipes/mom's-potato-latkes.html" rel="noopener noreferrer">Mom's Potato Latkes</a>
-            </li>            
-            <li>
-                <a href ="recipes/Coquito.html" rel="noopener noreferrer">Coquito</a>
+                <div class = "dish-coquito">
+                    <a id="coquito" href ="recipes/Coquito.html" rel="noopener noreferrer">Coquito</a>
+                    <img src="./images/source-coconut.jpeg" alt="coconut icon">
+                </div>
             </li>
         </ul>
         

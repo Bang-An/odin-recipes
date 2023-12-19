@@ -1,0 +1,36 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.title{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.dishes{
+    font-size: 20;
+}
+
+.dish-meatball{
+    display:grid;
+}
+
+.dish-potato{
+    display:grid;
+}
+
+.dish-coquito{
+    display:grid;
+}
+
+#swedishMeatballs{
+    color: red;
+}
+
+#potatoLatkes{
+    color: brown;
+}
+
+#coquito{
+    color: green;
+}
